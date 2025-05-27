@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận xóa khách hàng"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDeleteHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên:"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDeleteSoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại:"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDeleteNgayDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày đánh giá:"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDeleteDiemDanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm đánh giá:"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn có chắc chắn muốn xóa?"
+        android:textStyle="italic"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
